@@ -11,6 +11,7 @@ body{
     background-image: linear-gradient(rgb(65, 228, 165),rgb(27, 231, 238));
     padding: 10px 10px ;
     border-radius:15px;
+    border-bottom-right-radius: 10px 15px;
     text-align-last: center;
 }
 
@@ -108,4 +109,5 @@ footer{
     margin-left: 0px;
     margin-right: 0px;
     background-color: black; 
-    text-align: center; } 
+    text-align: center; 
+    } 
