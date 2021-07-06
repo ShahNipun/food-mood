@@ -5,15 +5,17 @@ body{
 }
 
 .logo-header{
-    font-size: 40px;
+    color: red;
+    font-size: 35px;
     text-decoration: none;
     background-image: linear-gradient(rgb(65, 228, 165),rgb(27, 231, 238));
-    padding: 10px 30px ;
-    border-radius:20px;
+    padding: 10px 10px ;
+    border-radius:15px;
+    text-align-last: center;
 }
 
 h1{
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .title-color{
@@ -21,19 +23,21 @@ h1{
 }
 
 section{
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     display: flex;
 }
 
 .title-box{
-    width: 50%;
-    padding-left:5%;
+    width: 55%;
+    padding-left:3%;
 }
 
 .title-box img{
-    width: 70%;
-    padding-left: 20%;
-    padding-top: 5%;
+    width: 60%;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 3%;
+    padding-bottom: 3%;
    
 }
 
@@ -54,8 +58,10 @@ section{
 }
 
 .blog-title{
-
-    text-align: center;
+    color: crimson;
+    text-align-last: center;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 
@@ -67,7 +73,7 @@ section{
     padding: 40px;
     box-shadow: 2px 2px 2px skyblue;
     border-left: skyblue;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 .blog-box img{
@@ -76,3 +82,30 @@ section{
     
     
 }
+
+.blog-section{
+   
+margin-left: 3.5%;
+}
+
+
+
+.counter-box{
+    text-align-last: center;
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 0%;
+    padding-left: 2.5%;
+    box-shadow: 0px 0px 2px skyblue;
+    border: skyblue;
+    border-radius: 2px;
+}
+ 
+footer{ 
+    color: cornflowerblue;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: black; 
+    text-align: center; } 
